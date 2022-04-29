@@ -20,7 +20,7 @@ $> .\venv\Scripts\activate
 ```
 * instalar dependencias
 ```
-$> pip install -t requeriments.txt 
+$> pip install -r requeriments.txt 
 ```
 * crear variables de entorno
 ```
