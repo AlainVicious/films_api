@@ -14,29 +14,29 @@ Para crear el API, además de Flask, haremos uso de las siguientes extensiones:
 ## instalacion
 * crear entorno virtual (recomendado)
 ```
-$> pip install virtualenv
-$> python -m venv venv\
-$> .\venv\Scripts\activate
+PS $> pip install virtualenv
+PS $> python -m venv venv\
+PS $> .\venv\Scripts\activate
 ```
 * instalar dependencias
 ```
-$> pip install -r requeriments.txt 
+PS $> pip install -r requeriments.txt 
 ```
 * crear variables de entorno
 ```
-$> set FLASK_APP=entrypoint:app
-$> set FLASK_ENV=development
-$> set APP_SETTINGS_MODULE=app.config.default
+PS $> set FLASK_APP=entrypoint:app
+PS $> set FLASK_ENV=development
+PS $> set APP_SETTINGS_MODULE=app.config.default
 ```
 * inicializar db
 ```
-$> flask db init
-$> flask db migrate -m "Initial_db"
-$> flask db upgrade
+PS $> flask db init
+PS $> flask db migrate -m "Initial_db"
+PS $> flask db upgrade
 ```
 ## Ejecucion
 ``` 
-$> flask run
+PS $> flask run
 ```
 ## pruebas
 ### ```POST: http://localhost:5000/api/v1.0/films/``` 
