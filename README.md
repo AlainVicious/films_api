@@ -24,9 +24,9 @@ $> pip install -r requeriments.txt
 ```
 * crear variables de entorno
 ```
-$> set FLASK_APP = entrypoint:app
-$> set FLASK_ENV = development
-$> set APP_SETTINGS_MODULE = app.config.default
+$> set FLASK_APP=entrypoint:app
+$> set FLASK_ENV=development
+$> set APP_SETTINGS_MODULE=app.config.default
 ```
 * inicializar db
 ```
