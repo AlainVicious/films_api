@@ -15,7 +15,7 @@ Para crear el API, además de Flask, haremos uso de las siguientes extensiones:
 * crear entorno virtual (recomendado)
 ```
 $> pip install virtualenv
-$> python venv venv\
+$> python -m venv venv\
 $> .\venv\Scripts\activate
 ```
 * instalar dependencias
